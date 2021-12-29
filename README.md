@@ -19,3 +19,20 @@ the first input is any code (letters & numbers)
 authorizer.not_a_robot() or </br>
 authorizer.verify_code(1276527)</br>   
 First option should be given when authorizer has input as NotARobot() and second for SMSAuth() and Only SMSAuth() requires a code</br>
+
+
+
+Single Responsibility:
+The Payment and Authorization Classes are kept different from Orders Class.</br>
+
+Open/Closed Principle:
+New Payment Methods and Authorization Methods can be added using the Authorizer and PaymentProcessor abstract classes.</br>
+
+Liskov Substitution:
+Different payment methods can have different requirements i.e. emails or security code as needed</br>
+
+Interface Segragation Principle:
+Different Payment methods can have or not have Authorization as needed.</br>
+
+Dependency Inversion:
+Different Payment methods can have different types of Authorization.</br>
