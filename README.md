@@ -36,3 +36,22 @@ Different Payment methods can have or not have Authorization as needed.</br>
 
 Dependency Inversion:
 Different Payment methods can have different types of Authorization.</br>
+
+- Payment: Debit Card  &  Authorizer: NotARobot
+
+![image](https://user-images.githubusercontent.com/96579311/148108066-8df976da-4881-477a-af5b-e86c97f7ac9c.png)
+
+- Payment: Debit Card  &  Authorizer: SMSAuth
+
+![image](https://user-images.githubusercontent.com/96579311/148107910-cf681685-55fc-454b-9ec0-763075e9b8c2.png)
+
+- Payment: Credit Card  &  Authorizer: None
+
+![image](https://user-images.githubusercontent.com/96579311/148108226-d405d7d6-821b-496f-aab9-285dd95493fb.png)
+
+- Payment: Paypal  &  Authorizer: NotARobot
+
+![image](https://user-images.githubusercontent.com/96579311/148108336-04a4a5d9-7709-4fff-88d9-646766adb170.png)
+
+
+
